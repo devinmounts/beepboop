@@ -17,13 +17,15 @@ function beepBoop(number){
           console.log(response);
   }
     return response.join(" ");
+
+
 }
 
-$(function(){
-  $("#beepboop").submit(function(e){
-    e.preventDefault();
-    var userInput = parseInt($("#number").val());
-    $("#result").text(beepBoop(userInput));
-  });
-
-});
+// $(function(){
+//   $("#beepboop").submit(function(e){
+//     e.preventDefault();
+//     var userInput = parseInt($("#number").val());
+//     $("#result").text(beepBoop(userInput));
+//   });
+//
+// });
