@@ -21,11 +21,11 @@ function beepBoop(number){
 
 }
 
-// $(function(){
-//   $("#beepboop").submit(function(e){
-//     e.preventDefault();
-//     var userInput = parseInt($("#number").val());
-//     $("#result").text(beepBoop(userInput));
-//   });
-//
-// });
+$(function(){
+  $("#beepboop").submit(function(e){
+    e.preventDefault();
+    var userInput = parseInt($("#number").val());
+    $("#result").text(beepBoop(userInput));
+  });
+
+});

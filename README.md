@@ -29,7 +29,7 @@ This website allows a user to enter in a number, for numbers containing a zero t
 2. Open Index.html in a web browser.
 
 ## Known Bugs
-* No known bugs at this time.
+* Rules for integers containing 1 and  integers containing zero are not included in the array.
 
 ## Technologies Used
 * Javascript
