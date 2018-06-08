@@ -12,7 +12,7 @@ This website allows a user to enter in a number, for numbers containing a zero t
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Program replaces any entry that is not a number.** | User input: "a" | Output: "This is not a number" |
+| **Program replaces any entry that is not a number.** | User input: "Hello" | Output: "This is not a number!" |
 | **Program replaces 0 with "Beep"**| User Input: "0" | Output: "Beep" |
 | **Program replaces 1 with "Boop".**| Input: "1" | Output: "Boop" |
 | **Program replaces 3 with "I'm sorry Dave, I'm afraid I can't do that"** | Input: "3" | Output: "I'm sorry Dave, I'm afraid I can't do that" |
