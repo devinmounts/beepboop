@@ -1,12 +1,15 @@
 function beepboop(number){
   var response = [];
   var str = "";
-  var integers = parseInt(str);
-for (i=0; i<=number; i++){
-  str = str + i;
-  console.log(str)
- }
- return integers;
+  var array = ;
+
+    for (i=0; i<=number; i++){
+      array = array + i;
+
+      console.log(array);
+     }
+     return array;
+
     // if (isNaN(array)) {
     //     response.push("not a number");
     //   } else if (array % 3 === 0) {
