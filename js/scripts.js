@@ -1,20 +1,14 @@
 function beepboop(number){
-var response = []
+var response = [];
 
-  if (number = 0) {
-      response.push("Boop");
-  }
+  if (isNaN(number)) {
+    response.push("not a number");
+  } else if (number === 0) {
+    response.push("Boop")
+  } else
+    response.push(number)
 
-  console.log(number)
-return response.join("");
+      console.log(number)
+
+  return response.join("");
 }
-
-// if (age > 21) {
-//     $('#drinks').show();
-//   } else if (age === 21) {
-//     alert("Now don't go crazy!");
-//     $('#drinks').show();
-//   } else {
-//     $('#under-21').show();
-//   }
-// });
