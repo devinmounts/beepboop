@@ -5,6 +5,8 @@ var response = [];
     response.push("not a number");
   } else if (number === 0) {
     response.push("Boop")
+  } else if (number % 3 === 0) {
+    response.push("Beep")
   } else
     response.push(number)
 
