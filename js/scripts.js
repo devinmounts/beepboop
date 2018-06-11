@@ -1,31 +1,26 @@
 function beepBoop(number){
-  var response = [];
+  var array = [];
 
-  for(i=0; i<=number; i++) {
-    console.log(response);
-    if (isNaN(i)) {
-      response.push("not a number");
-    } else if (i % 3 === 0) {
-        response.push("I'm sorry Dave, I can't allow you to do that.")
-      } else if (i === 1) {
-        response.push("Boop")
-      } else if (i === 0) {
-          response.push("Beep")
-      } else
-          response.push(i)
-
-          console.log(response);
-  }
-    return response.join(" ");
-
-
+    for (integer=0; integer<=number; integer++){
+      var intString = integer.toString();
+      if (intString % 3 ===0) {
+        array.push("I'm sorry Dave, I can't allow you to do that");
+        }else if (intString.includes(0)) {
+          array.push("Beep");
+        }else if (intString.includes(1)) {
+          array.push("Boop");
+        }else
+          array.push(intString);
+    }
+ return array.join(" ");
 }
 
-// $(function(){
-//   $("#beepboop").submit(function(e){
-//     e.preventDefault();
-//     var userInput = parseInt($("#number").val());
-//     $("#result").text(beepBoop(userInput));
-//   });
-//
-// });
+
+$(function(){
+  $("#beepboop").submit(function(e){
+    e.preventDefault();
+    var userInput = parseInt($("#number").val());
+    $("#result").text(beepBoop(userInput));
+  });
+
+});
