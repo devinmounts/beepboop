@@ -5,10 +5,10 @@ function beepBoop(number){
       var intString = integer
       if (intString % 3 ===0 && intString !== 0) {
         array.push("I'm sorry Dave, I can't allow you to do that");
-      }else if (intString.toString().includes(0)) {
-          array.push("Beep");
-        }else if (intString.toString().includes(1)) {
+      }else if (intString.toString().includes(1)) {
           array.push("Boop");
+        }else if (intString.toString().includes(0)) {
+          array.push("Beep");
         }else
           array.push(intString);
     }
