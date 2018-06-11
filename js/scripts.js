@@ -3,7 +3,7 @@ function beepBoop(number){
 
     for (integer=0; integer<=number; integer++){
       var intString = integer.toString();
-      if (intString % 3 ===0) {
+      if (intString % 3 ===0 && intString !== 0) {
         array.push("I'm sorry Dave, I can't allow you to do that");
         }else if (intString.includes(0)) {
           array.push("Beep");
